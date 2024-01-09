@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 14px;
+}
+
+.filters {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.businesses, .nearLocation, .sortReview {
+  font-size: .9rem;
+}
+
+.filters select {
+  font-size: .8rem;
+  border-radius: 5px;
+}
+
+.business-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.business-card {
+  width: 300px;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.business-card:hover {
+  background-color: #d6c9c9;
+  cursor: pointer;
+  width: 330px;
+  transition: ease .3s;
+}
+
+.business-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+footer {
+  position: fixed;
+  background-color: #333;
+  height: 60px;
+  bottom: 0;
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+  padding-top: 9px;
+}
