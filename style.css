@@ -48,8 +48,6 @@ header {
 .business-card:hover {
   background-color: #d6c9c9;
   cursor: pointer;
-  width: 330px;
-  transition: ease .3s;
 }
 
 .business-card img {
